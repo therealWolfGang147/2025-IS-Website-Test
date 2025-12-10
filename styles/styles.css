@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+    color: rgb(41, 159, 72);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 69px;
+    color: rgb(28, 44, 99);
+    text-align: center;
+}
+
+h2 {
+    font-size: 42px;
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
+
+h3, h4, h5 {
+    color: rgb(63, 35, 89);
+}
+
+.main {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.common {
+    background-color: aliceblue;
+    border: 2px solid white;
+    color: rgb(178, 207, 163);
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.left {
+    width: 250px;
+}
+
+.right {
+    width: 350px;
+}
+
+.header {
+    z-index: 10;
+}
+
+.pretty {
+    color: pink;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer {
+    background-color: rgb(20, 93, 156);
+    border: 2px solid rgb(138, 23, 23);
+    color: rgb(80, 36, 36);
+    padding: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dino-img {
+    width: 10%;
+    max-width: 90px;
+    display: block;
+    margin: 300px auto;
+    border: 3px solid white;
+}
